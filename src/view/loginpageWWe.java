@@ -103,6 +103,18 @@ public class loginpageWWe extends JFrame {
 				 * fdhsfhfhghfh
 				 * 
 				 */
+				EventQueue.invokeLater(new Runnable() {
+					
+					public void run() {
+						try {
+							menuExercice frame = new menuExercice();
+							frame.setVisible(true);
+						} catch (Exception e) {
+							e.printStackTrace();
+							
+						}
+					}
+				});
 				}
 				
 				else
